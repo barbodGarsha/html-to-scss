@@ -37,6 +37,43 @@ li {
   padding: 0;
 }
 
+.page .page__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 5rem;
+}
+
+.page .page__input {
+  max-height: 100%;
+}
+
+.page .page__output {
+  max-height: 100%;
+}
+
+.page .page__h1 {
+  color: #2b6777;
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  font-size: 3rem;
+  font-weight: 300;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.page .page__textarea {
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: none;
+  -webkit-box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.16);
+          box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.16);
+}
+
 .test {
   display: none;
 }
